@@ -1,2 +1,3 @@
 # runtrack2
-projet PHP majoritairement 
+Exercise for PHP and git 
+

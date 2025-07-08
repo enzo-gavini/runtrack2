@@ -1,7 +1,8 @@
 <?php
-    $name = "Jamie";
-    $age = 10;
-    $str3 = false;
+    $integer = 42;
+    $float = 3.14;
+    $string = "Hello";
+    $boolean = true;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,9 +22,24 @@
         </thead>
         <tbody>
             <tr>
-                <td><?php var_dump ($str3);?></td>
-                <td><?php echo $name;?></td>
-                <td><?php echo $age;?></td>
+                <td>integer</td>
+                <td>$integer</td>
+                <td><?php echo $integer;?></td>
+            </tr>
+            <tr>
+                <td>float</td>
+                <td>$float</td>
+                <td><?php echo $float;?></td>
+            </tr>
+            <tr>
+                <td>string</td>
+                <td>$string</td>
+                <td><?php echo $string;?></td>
+            </tr>
+            <tr>
+                <td>boolean</td>
+                <td>$boolean</td>
+                <td><?php echo $boolean;?></td>
             </tr>
         </tbody>
     </table>
